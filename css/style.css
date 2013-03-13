@@ -1,9 +1,47 @@
+ul {
+	margin-top: 5%;
+	list-style-type: none;
+}
 
+ul li a {
+	font-size: 1.5em;
+}
+
+ul li {
+	margin-bottom: 10px;
+}
+#rails_projects, #UI_projects{
+	width: 500px;
+	margin-top: 30px;
+
+}
 
 *{
 	font-family: 'Open Sans', sans-serif;
 }
 
+.me {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	text-align: center;
+	background-color: #37B6BE;
+	margin-bottom: 50px;
+}
+
+.node {
+
+}
+
+.rails {
+	margin-top: 10%;
+}
+.python {
+	margin-top: 20%;
+}
+.me h1 {
+	color: white;
+	font-size: 6em;
+}
 .mainrow {
 	width: 100%;
 	padding: 0;
@@ -30,21 +68,29 @@
 
 .stuff {
 	width: 100%;
-	text-align: center;
+
 	margin: 0px auto;
 }
 
-.hello {
-	background-color: #21BFED;
-	width: 100%;
-	height: 80%;
-	text-align: center;
-	box-align: center;
+.projects {
+	width: 80%;
+	margin: 0px auto;
 }
 
-.hello h1{
+.project {
+	float: left;
+	width: 200px;
+	margin-left: 7%;
+}
+
+.contact{
+	text-align: center;
+	position: fixed;
+	top: 0px;
+	right: 6%;
+
+}
+
+.contact h2 a{
 	color: white;
-	font-size: 10em;
-	margin: 0 auto;
-	padding-top: 20%;
 }
